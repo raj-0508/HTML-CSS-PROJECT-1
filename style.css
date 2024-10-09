@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
 }
     
 
@@ -9,8 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 8rem;
+    margin: 2rem 5rem;
     font-weight: 900;
+    gap: 2rem;
 }
     
 
@@ -19,62 +19,51 @@
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
+    font-weight: 550;
+    gap: 2rem;
+    list-style:none;
 }
 
-    
-.list-item{
-    list-style:none;
-    margin: 0 1rem;
- }
-    
 
 .list-item:nth-child(1){
-    font: size 1.3rem;
     font-weight: 900;
     text-decoration: underline;
 }
 
 
 .button-group{
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
         
-button{
+.nav-button{
+    display: flex;
+    align-items: center;
     padding: 0.5rem 3rem;
     background-color: transparent;
+    color: #757474;
     font-size:1.1rem;
-    margin-left: 1rem;
     border-radius: 0.5rem;
+    border: 2.8px solid #757474;
 }
        
-.nav-button{
-    border: 2.5px solid #000000;
-}
-
 
 
 .hero-container{
-    margin: 5rem 8rem 2rem 8rem;
+    margin: 4rem;
     position: relative; 
     display: flex;
-    gap: 5rem;
+    gap: 7rem;
 }
 
-
-
-.hero {
-    width: 350px;
-}
 
 
 .square {
     position: absolute;
-    bottom: 0;
-    left: 80px;
-    top: 330px;
-    margin-left: 140px;
+    left: 13rem;
+    top: 20.5rem;
     z-index: -1;
 }
            
@@ -83,54 +72,37 @@ button{
 .hero-container-right{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    margin-left: 50px;
     justify-content: center;
-}
-    
-
-
-.contact{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
 }
-          
-
-
-.contact-heading{
-    font-weight: 600;
-    font-size: larger;
-    color: #000000;
-    margin-top: 9rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-                
+                    
                 
 
 .hero-heading{
-    font-size: 4rem;
-    font-weight: bold;
-    margin-top: 100px;
-    margin: 4rem 2rem 2rem 4rem;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-top: 10rem;
+    width: 85vh;
 }
                 
                 
 .hero-description{
-    width: 90%;
-    margin-left: 40px;
     text-align: center;
+    color: #757474;
+    margin-top: 3rem;
     margin-bottom: 5rem;
-    color: #000000;
+    font-size: 1.2rem;
+    width: 68vh;
 }
                 
  
 .button-email{
-    border: 2.5px solid #000000;
+    padding: 0.1rem 1.5rem;
+    background-color: transparent;
+    font-size:1.5rem;
+    color: #757474;
+    border-radius: 0.5rem;
+    border: 2.8px solid #757474;
 }
 
 
@@ -138,31 +110,53 @@ button{
 .button-join{
     background-color: #000000;
     color: #ffffff;
+    font-size:1.5rem;
+    border-radius: 0.5rem;
+    padding: .1rem .1rem;
 }
-                    
-                    
-.star{
-    top: 40px;
-    right: 5%;
+ 
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-                    
-                    
-.star2{
-    bottom: 4%;
-    left: 45%;
-    height: 1px;
-    
+          
+
+.contact-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #757474;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
-                    
+
 
 .star,.star2,.globe {
     position: absolute;
 }
-
-
-
+                    
+.star{
+    top: 6rem;
+    left: 85rem;
+}
+                    
+                    
+.star2{
+    bottom: 40px;
+    left: 43rem;
+    
+}
+                    
 .globe{
-    top: 0.85em; left: 50%;
+    top: 0.85em;
+    left: 50rem;
 }
 
-
+.icons{
+    display: flex;
+    gap: 2rem;
+}
