@@ -10,4 +10,4 @@ Additionally, I explored the Z-index property, which controls the stacking order
 
 # Screenshot
 
-![Screenshot](https://github.com/user-attachments/assets/1c61159b-caa7-45a7-b9c8-c9172bb91c11)
+![image](Screenshot.png)
