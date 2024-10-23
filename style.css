@@ -3,6 +3,9 @@
     padding: 0;
 }
     
+.container{
+    overflow: hidden;
+}
 
 .navbar-container{
     display: flex;
@@ -12,20 +15,29 @@
     font-weight: 900;
     gap: 2rem;
 }
-    
+
+.navbar-container img{
+    height: 50px;
+} 
+
+.navbar-container svg{
+    height: 30px;
+}
 
 .list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2rem;
-    font-weight: 550;
-    gap: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    gap: 3rem;
     list-style:none;
 }
 
 
 .list-item:nth-child(1){
+    font-size: 1.7rem;
     font-weight: 900;
     text-decoration: underline;
 }
@@ -41,12 +53,12 @@
 .nav-button{
     display: flex;
     align-items: center;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 3rem 0.2rem 3rem;
     background-color: transparent;
-    color: #757474;
-    font-size:1.1rem;
-    border-radius: 0.5rem;
-    border: 2.8px solid #757474;
+    color: #383838;
+    font-size:1.5rem;
+    border-radius: 15px;
+    border: 3px solid #2e2e2e;
 }
        
 
@@ -58,13 +70,20 @@
     gap: 7rem;
 }
 
-
+.hero-container img[alt="person-hero-iamge"] {
+    height: 550px;
+    margin-top: 5rem;
+}
 
 .square {
     position: absolute;
-    left: 13rem;
+    left: 9.5rem;
     top: 20.5rem;
     z-index: -1;
+}
+
+.square img{
+    height: 360px;
 }
            
 
@@ -79,38 +98,44 @@
                 
 
 .hero-heading{
-    font-size: 5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
     font-weight: 900;
-    margin-top: 10rem;
-    width: 85vh;
+    margin-top: 11rem;
+    width: 95vh;
 }
                 
                 
 .hero-description{
     text-align: center;
-    color: #757474;
+    color: #979797;
     margin-top: 3rem;
-    margin-bottom: 5rem;
-    font-size: 1.2rem;
-    width: 68vh;
+    margin-bottom: 6rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70vh;
 }
                 
  
 .button-email{
-    padding: 0.1rem 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0.2rem 1.5rem;
     background-color: transparent;
-    font-size:1.5rem;
-    color: #757474;
+    font-size:1.2rem;
+    font-weight: 600;
+    color: #484848;
     border-radius: 0.5rem;
-    border: 2.8px solid #757474;
+    border: 2.5px solid #3d3d3d;
 }
 
 
                 
 .button-join{
+    font-family: 'Orbitron', sans-serif;
     background-color: #000000;
     color: #ffffff;
-    font-size:1.5rem;
+    font-size:1.2rem;
     border-radius: 0.5rem;
     padding: .1rem .1rem;
 }
@@ -126,8 +151,9 @@
           
 
 .contact-heading{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #757474;
     margin-top: 5rem;
     margin-bottom: 1.5rem;
@@ -140,23 +166,39 @@
 }
                     
 .star{
-    top: 6rem;
-    left: 85rem;
+    top: 4.5rem;
+    left: 75rem;
 }
-                    
+  
+.star img{
+    height: 65px;
+}
                     
 .star2{
     bottom: 40px;
-    left: 43rem;
+    left: 40rem;
     
 }
+
+.star2 img{
+    height: 45px;
+}
+
                     
 .globe{
-    top: 0.85em;
-    left: 50rem;
+    top: 1rem;
+    left: 45rem;
+}
+
+.globe img{
+    height: 60px;
 }
 
 .icons{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+.icons img{
+    height:35px;
 }
